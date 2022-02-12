@@ -4,7 +4,7 @@
   "productName": "Endarium Launcher",
   "description": "Endarium Launcher",
   "main": "app/index.html",
-  "author": "ZelDios",
+  "author": "Luuxis, zeldios",
   "window": {
     "title": "Endarium update",
     "width": 400,
