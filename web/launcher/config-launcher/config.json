@@ -1,13 +1,13 @@
 {
   "maintenance": false,
-  "maintenance_message": "Le server est en maintenance.<br>Merci de bien vouloir essayer ultérieurement.",
+  "maintenance_message": "Le server est en maintenance.<br>Merci de bien vouloir essayer ultérieurement ou de contacter le Discord",
   "online": true,
   "client_id": "",
-  "game_version": "1.0",
-  "custom": false,
-  "verify": false,
+  "game_version": "1.16.5",
+  "custom": true,
+  "verify": true,
   "java": true,
   "game_args": [],
-  "dataDirectory": ".minecraft",
-  "ignored": ["config.json"]
+  "dataDirectory": ".Endarium",
+  "ignored": ["config.json", "options.txt"]
 }

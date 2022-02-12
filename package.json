@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "Endarium-Launcher",
   "version": "2.0.5",
-  "productName": "Uzurion Launcher",
-  "description": "Uzurion Launcher",
+  "productName": "Endarium Launcher",
+  "description": "Endarium Launcher",
   "main": "app/index.html",
-  "author": "Luuxis",
+  "author": "ZelDios",
   "window": {
-    "title": "Uzurion update",
+    "title": "Endarium update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -18,7 +18,7 @@
     "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://launcher.selvania.fr",
+  "url": "http://137.74.231.91",
   "user": "",
   "webkit": {
     "plugin": true
@@ -33,7 +33,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "Endarium Launcher",
     "nwVersion": "0.60.0",
     "packed": true,
     "targets": [
@@ -56,16 +56,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "Endarium Launcher",
+      "companyName": "Endarium Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "Endarium-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "Endarium-Launcher"
       }
     },
     "nsis": {
@@ -82,7 +82,7 @@
     "url": "git+https://github.com/luuxis/Uzurion-Launcher.git"
   },
   "dependencies": {
-    "minecraft-java-core": "^1.3.0",
+    "minecraft-java-core": "^1.2.0",
     "nw-autoupdater-luuxis": "^1.1.6"
   }
 }

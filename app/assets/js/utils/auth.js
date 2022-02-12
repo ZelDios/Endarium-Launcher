@@ -12,8 +12,9 @@ module.exports.loginMojang = function(username, password){
 }
 
 module.exports.loginMicrosoft = function(id){
+    const Microsoft = new microsoft(id);
     return new Promise((resolve, reject) => {
-        new microsoft(id).getAuth().then(user => {
+        Microsoft.getAuth().then(user => {
             module.exports.user = user
             return resolve(user);
         }).catch(error => {

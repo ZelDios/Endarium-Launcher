@@ -1,5 +1,6 @@
 const fs = require("fs");
-const { microsoft } = require('minecraft-java-core');
+const { mojang, microsoft } = require('minecraft-java-core');
+const Microsoft = new microsoft()
 const dataDirectory = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 const { config, auth } = require('./assets/js/utils.js');
 let win = nw.Window.get()
@@ -67,7 +68,7 @@ config.config().then(async (config) => {
     } else {
       for(let user of getuser){
         if(user.meta.type === "msa") {
-          await new microsoft(config.client_id).refresh(user).then(msa => file.Login[msa.uuid] = msa).catch(error => {
+          await Microsoft.refresh(user).then(msa => file.Login[msa.uuid] = msa).catch(error => {
             delete file.Login[user.uuid]
             changePanel("", "login")
           })
