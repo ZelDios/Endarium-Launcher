@@ -5,10 +5,10 @@
     font-size: 130%;
     border-radius: 20px;
     margin-left: 20%;
-    color: azure;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 1.7%;
-    background: #64bf6d80;
+    background: linear-gradient(to right bottom, #9ac919, #a7cb17, #b3cb18, #c0c916, #d7cd16);
 }
 
 .player-connect-head {

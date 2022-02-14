@@ -95,20 +95,26 @@
 
 .uzurionAppLoginCardSubmit {
   transition: all 0.25s ease;
-  background: linear-gradient(to right bottom, #54f659, #59e860, #5dda65, #61cd6a, #64bf6d);
+  background: linear-gradient(to right bottom, #9ac919, #a7cb17, #b3cb18, #c0c916, #d7cd16);
   padding: 10px 40px;
   border-radius: 50px;
-  border: 0px solid rgba(0,0,0,0);
+  border: 0px solid rgb(0, 0, 0);
   font-family: 'Roboto', sans-serif;
+  color : black;
   letter-spacing: 2px;
 }
 
 .uzurionAppLoginCardSubmit:hover {
-  background-image: linear-gradient(to right bottom, #54f659, #57eb5f, #5be064, #5ed669, #61cb6c);
+  background-image: linear-gradient(to right bottom, #9ac919, #a7cb17, #b3cb18, #c0c916, #d7cd16);
 }
 
 .microsoft-btn {
-  background-color: transparent;
+  background-color: rgb(55, 55, 55);
+  border-radius: 10px;
+  background: #373737;
+  padding: 0px;
+  width: 54px;
+  height: 55px;
   border: none;
 }
 

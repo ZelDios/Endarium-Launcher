@@ -16,14 +16,14 @@
     font-size: 130%;
     border-radius: 20px;
     border: none;
-    color: azure;
+    color: black;
     margin-top: 1.7%;
     margin-left: 80%;
-    background: #64bf6d;
+    background: linear-gradient(to right bottom, #9ac919, #a7cb17, #b3cb18, #c0c916, #d7cd16);
 }
 
 .play-btn:hover {
-    background: #272928;
+    background: linear-gradient(to right bottom, #d7cd169f, #c0c9169f, #b3cb189f, #a7cb179f, #9ac9199f);
 }
 
 .info-download {
@@ -54,6 +54,6 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #64bf6d;
+    background-color: yellowgreen;
     border-radius: 10px;
 }

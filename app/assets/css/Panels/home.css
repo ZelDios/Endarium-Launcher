@@ -14,12 +14,12 @@
     width: 47px;
     margin-left: 2.5%;
     height: auto;
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    transition: all 0.4s cubic-bezier(1, 0.46, 0, 1.29), all 1s ease-in-out;
     border-radius: 15px;
 }
 
 .user-head:hover {
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    transition: all 0.4s cubic-bezier(1, 0.46, 0, 1.29), all 1s ease-in-out;
     border-radius: 5px;
 }
 
@@ -27,17 +27,17 @@
     position: absolute;
     margin-top: 3.5%;
     margin-left: 87.5%;
-    background: white;
+    background: linear-gradient(to right bottom, #9ac919, #a7cb17, #b3cb18, #c0c916, #d7cd16);
     border: none;
     width: 47px;
     height: 47px;
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    transition: all 0.4s cubic-bezier(1, 0.46, 0, 1.29), all 1s ease-in-out;
     color: black;
     border-radius: 15px;
     font-size: 200%;
 }
 
 .settings-btn:hover {
-    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    transition: all 0.4s cubic-bezier(1, 0.46, 0, 1.29), all 1s ease-in-out;
     border-radius: 5px;
 }
