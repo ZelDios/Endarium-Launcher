@@ -73,14 +73,14 @@ body {
 .start-loader {
     text-align: center;
     margin-top: 65vh;
-    color: #64bf6d; 
+    color: yellowgreen; 
 }
 
 .loader {
     position: absolute;
     top: 45vh;
     right: 45%;
-    border-top: 16px solid #64bf6d;
+    border-top: 16px solid yellowgreen;
     border-radius: 50%;
     width: 120px;
     height: 120px;

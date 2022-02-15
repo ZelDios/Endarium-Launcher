@@ -19,8 +19,8 @@ config.config().then(res => {
     if(!fs.existsSync(`${dataDirectory}/${res.dataDirectory}/config.json`)){
         DEFAULT_CONFIG = {
             "Launcher": {
-                "NewsAutoRefresh": false,
-                "StatusServerAutoRefresh": false,
+                "NewsAutoRefresh": true,
+                "StatusServerAutoRefresh": true,
                 "CloseLauncher": true
             },
             "Settings": {
