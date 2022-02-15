@@ -30,6 +30,12 @@
   margin: 10% 10%;
 }
 
+.accountsettings {
+  position: absolute;
+  color: transparent;
+  margin-left: 30%;
+}
+
 .add-account {
   position: absolute;
   margin-top: 3.5%;
