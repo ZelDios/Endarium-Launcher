@@ -48,7 +48,7 @@ body {
     width: 30px;
     height: 26px;
     transition: color .2s, background-color .2s;
-    color: black;
+    color: #202020;
     cursor: pointer;
 }
 
@@ -95,5 +95,3 @@ body {
 .panel {
     display: none;
 }
-
-  

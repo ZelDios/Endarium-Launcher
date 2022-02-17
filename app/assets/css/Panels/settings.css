@@ -25,9 +25,10 @@
   border-radius: 25px;
   background: rgb(48, 48, 48);
   padding: 2%;
-  width: 90%;
-  height: 80%;
-  margin: 10% 10%;
+  top: calc(18% - 2px);
+  left: 10%;
+  right: 10px;
+  bottom: 20px;
 }
 
 .accountsettings {
