@@ -5,8 +5,8 @@ config.info().then(async (config)  => {
     let StatusServer = (await status.StatusServer(config.ip_server, parseInt(config.port)));
     
     if(!StatusServer){
-        document.querySelector(".player-connect-number").innerHTML = "Le serveur est actuellement ferme.";
-        document.querySelector(".player-connect").innerHTML = "Le serveur est actuellement ferme.";
+        document.querySelector(".player-connect-number").innerHTML = "Endarium est actuellement ferme.";
+        document.querySelector(".player-connect").innerHTML = "Endarium est actuellement ferme.";
     } else {
         document.querySelector(".player-connect").innerHTML = ""
         if(StatusServer.players.online === 0){
